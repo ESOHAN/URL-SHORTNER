@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #fe4f4f 0%, #00f2fe 100%),
+                radial-gradient(at 40% 20%, rgb(213, 111, 55) 0px, transparent 50%),
+                radial-gradient(at 80% 0%, hsla(120, 100%, 56%, 1) 0px, transparent 50%),
+                linear-gradient(to bottom, rgb(255, 0, 0, 0), rgb(255, 0, 111)),
+                radial-gradient(at 0% 50%, hsla(200, 100%, 93%, 1) 0px, transparent 50%),
+                radial-gradient(at 80% 50%, hsla(180, 100%, 76%, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, hsla(40, 100%, 77%, 1) 0px, transparent 50%),
+                radial-gradient(at 80% 100%, hsla(240, 100%, 70%, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 0%, rgb(255, 133, 243) 0px, transparent 50%);
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+    
+
+.container {
+    background: rgba(255, 255, 255, 0.241);
+    border-radius: 20px;
+    padding: 30px 40px;
+    border: 2px solid #333;
+    text-align: center;
+    min-width: 400px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container i {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+label {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+}
+
+input::placeholder {
+    color: #444;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    
+    width: 100%;
+    color: #ffffff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    background-color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
